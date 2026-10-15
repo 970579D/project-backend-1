@@ -10,6 +10,6 @@ app.use(cors());
 // Pass the app instance to the main API file to set up routes
 setUpApiRoutes(app);
 
-app.listen(port, () => {
+app.listen(8001, '0.0.0.0', () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
